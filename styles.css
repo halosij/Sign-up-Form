@@ -168,3 +168,9 @@ label{
     position: relative;
     flex-direction: column;
 }
+
+.passwordMatch{
+    font-size: small;
+    color: rgb(211, 42, 42);
+    
+}

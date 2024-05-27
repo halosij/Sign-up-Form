@@ -63,6 +63,7 @@
                         <div class='form-row'>
                             <label for='password'>PASSWORD</label>
                             <input id='password' name='password' type='password'/>
+                            <div class="passwordMatch">*Passwords do not match</div>
                         </div>
                     </div>
 
@@ -101,4 +102,25 @@
     </div>
 
 </body>
+
+<script>
+
+    let password = document.querySelector("#password");
+    let confirmPassword = document.querySelector("#confirmPassword");
+    
+    password.addEventListener('input', () => {
+        comparePasswords();
+    });
+
+    confirmPassword.addEventListener('input', () => {
+        comparePasswords();
+    });
+
+    function comparePasswords(){
+        if(password.value != confirmPassword.value){
+            
+        }
+    }
+</script>
+
 </html>
