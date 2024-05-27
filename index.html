@@ -34,59 +34,68 @@
                     your deepest dreams. Sign up <i>now</i> to get stated.
                 </p> 
                 
-                <p>You know you want to</p>
+                <p>You know you want to.</p>
             </div>
            
         </div>
 
       
-        <div class="formSection">
-            <p style="margin: 24px 24px -12px 48px;">Let's do this!</p>
-            
-                <form action='' method='get' class='formClass'>
-                    <div class="formContainer">
-                        <div class="formLeft">
-                            <div class='form-row'>
-                                <label for='firstName'>FIRST NAME</label>
-                                <input id='firstName' name='firstName' type='text'/>
-                            </div>
         
-                            <div class='form-row'>
-                                <label for='email'>EMAIL</label>
-                                <input id='email' name='email' type="email"/>
-                            </div>
-        
-                            <div class='form-row'>
-                                <label for='password'>PASSWORD</label>
-                                <input id='password' name='password' type='password'/>
-                            </div>
-                        </div>
-    
-                        <div class="formRight">
-                            <div class='form-row'>
-                                <label for='lastName'>LAST NAME</label>
-                                <input id='lastName' name='lastName' type='text'/>
-                            </div>
-            
-                            <div class='form-row'>
-                                <label for='phoneNumber'>PHONE NUMBER</label>
-                                <input id='phoneNumber' name='phoneNumber' type="number"/>
-                            </div>
-            
-                            <div class='form-row'>
-                                <label for='confirmPassword'>CONFIRM PASSWORD</label>
-                                <input id='confirmPassword' name='confirmPassword' type='password'/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="submitContainer">
+                <form action='' id="myform" method='get' class='formClass'>
+                    
+                    <div>
                         <div>
-                            <button>Create Account</button>
+                            <p style="margin: 24px 24px -12px 48px;">Let's do this!</p>
                         </div>
-                        <p>Already have an account? <a class="login" href="https://www.google.com">Log in</a></p>
+                        
+                        <div class="formElements">
+                            <div class="formLeft">
+                                <div class='form-row'>
+                                    <label for='firstName'>FIRST NAME</label>
+                                    <input id='firstName' name='firstName' type='text'/>
+                                </div>
+            
+                                <div class='form-row'>
+                                    <label for='email'>EMAIL</label>
+                                    <input id='email' name='email' type="email"/>
+                                </div>
+            
+                                <div class='form-row'>
+                                    <label for='password'>PASSWORD</label>
+                                    <input id='password' name='password' type='password'/>
+                                </div>
+                            </div>
+        
+                            <div class="formRight">
+                                <div class='form-row'>
+                                    <label for='lastName'>LAST NAME</label>
+                                    <input id='lastName' name='lastName' type='text'/>
+                                </div>
+                
+                                <div class='form-row'>
+                                    <label for='phoneNumber'>PHONE NUMBER</label>
+                                    <input id='phoneNumber' name='phoneNumber' type="number"/>
+                                </div>
+                
+                                <div class='form-row'>
+                                    <label for='confirmPassword'>CONFIRM PASSWORD</label>
+                                    <input id='confirmPassword' name='confirmPassword' type='password'/>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
+                    
                 </form>
-        </div>
+           
+
+                <div class="submitContainer">
+                    <div>
+                        <input class="buttonInput" type="submit" form="myform" value="Create Account"/>
+                    </div>
+                    <p>Already have an account? <a class="login" href="https://www.google.com">Log in</a></p>
+                </div>
+       
       
       
        
