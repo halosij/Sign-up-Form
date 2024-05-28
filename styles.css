@@ -117,11 +117,14 @@ label{
 .form-row input[type='password'],
 .form-row input[type='number'] {
     background-color: #FFFFFF;
-    border: 1px solid #D6D9DC;
+    border: 2px solid #D6D9DC;
     border-radius: 3px;
     width: 100%;
     padding: 7px;
     font-size: 14px;
+    -webkit-transition: 0s;
+    transition: 0s;
+    outline: none;
   }
 
 .buttonInput{
@@ -175,6 +178,6 @@ label{
     
 }
 
-input:focus {
-    border: 2px solid violet; /* Oder die gewünschte Farbe und Breite */
-}
+.form-row input:focus {
+    border: 2px solid rgb(84, 84, 236);
+  }
